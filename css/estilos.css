@@ -4,7 +4,7 @@ body
     color: #333;
     text-align: center;
     font-family: Arial;
-    font-size: 16px;
+    font-size: 160px;
     margin: 0;
     padding: 0;
 }
@@ -12,11 +12,11 @@ body
 #cabecera
 {
     background: #37488b;
-    box-shadow: 0px 20px 200px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 10.5em;
+    padding: .5em;
 }
 
 #cabecera #logo
