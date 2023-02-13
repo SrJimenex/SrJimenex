@@ -1,0 +1,105 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/* Reset */
+
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/* Estilos de la cabecera */
+header {
+background-color: #333;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+position: fixed;
+width: 100%;
+z-index: 999;
+}
+
+header .container {
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+width: 100%;
+}
+
+header .logo {
+color: #fff;
+font-size: 24px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+header nav {
+display: flex;
+}
+
+header nav ul {
+display: flex;
+list-style: none;
+}
+
+header nav ul li {
+margin-left: 20px;
+}
+
+header nav a {
+color: #fff;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+text-decoration: none;
+text-transform: uppercase;
+transition: all 0.2s ease-in-out;
+}
+
+header nav a:hover {
+color: #ffc107;
+}
+
+/* Estilos de la sección principal */
+main {
+padding-top: 80px;
+}
+
+section {
+padding: 80px 0;
+text-align: center;
+}
+
+section h2 {
+color: #333;
+font-size: 36px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+margin-bottom: 40px;
+text-transform: uppercase;
+}
+
+section p {
+color: #666;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+line-height: 1.5;
+margin-bottom: 40px;
+width: 80%;
+margin: 0 auto;
+}
+
+/* Estilos de la sección de proyectos */
+.projects {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 40px 0;
+}
+
+.projects li {
+background-color: #f7f7f7;
+box-shadow: 0px 0px 10px #cc

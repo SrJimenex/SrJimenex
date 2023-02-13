@@ -1,0 +1,69 @@
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.navigation-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu li {
+  flex: 1;
+  text-align: center;
+}
+
+.navigation-menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.navigation-menu a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.contact-form {
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-control {
+border-radius: 8px;
+background-color: #ffffff;
+border: 1px solid #d9d9d9;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 10px;
+width: 100%;
+}
+
+textarea.form-control {
+height: auto;
+min-height: 150px;
+}
+
+.btn {
+border-radius: 8px;
+background-color: #4CAF50;
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 1px;
+}
